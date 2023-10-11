@@ -1,0 +1,10 @@
+﻿Console.WriteLine("Введите скорость лодки в стоячей воде");
+int v = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("Введите скорость течения реки");
+int u = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("Введите время сколько лодка плыла по озеру ");
+int t1 = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("Введите время сколько плыла лодка по реке");
+int t2 = Convert.ToInt32(Console.ReadLine()); 
+double s=v*t1+(u+v)*t2;
+Console.WriteLine($"Путь, который прошла лодка равен{s}");
