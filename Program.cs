@@ -1,10 +1,17 @@
-﻿Console.WriteLine("Введите скорость лодки в стоячей воде");
-int v = Convert.ToInt32(Console.ReadLine());
-Console.WriteLine("Введите скорость течения реки");
-int u = Convert.ToInt32(Console.ReadLine());
-Console.WriteLine("Введите время сколько лодка плыла по озеру ");
-int t1 = Convert.ToInt32(Console.ReadLine());
-Console.WriteLine("Введите время сколько плыла лодка по реке");
-int t2 = Convert.ToInt32(Console.ReadLine()); 
-double s=v*t1+(u+v)*t2;
-Console.WriteLine($"Путь, который прошла лодка равен{s}");
+﻿using System.ComponentModel.Design;
+
+Console.WriteLine("Введите три числа");
+double A=Convert.ToDouble(Console.ReadLine());
+double B = Convert.ToDouble(Console.ReadLine());
+double C = Convert.ToDouble(Console.ReadLine());
+if (A < C) | (B < C) | (A < B);
+{
+   A=2*A; 
+   B=2*B;
+   C=2*C;
+    Console.WriteLine($"Удвоенные числа равны {A}{B}{C}") ;
+}
+ else
+{
+
+}
